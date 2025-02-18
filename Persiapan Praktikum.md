@@ -43,3 +43,33 @@ Sebelum memulai instalasi, pastikan perangkat memenuhi spesifikasi berikut:
 
 ## Kesimpulan
 Instalasi Debian atau Ubuntu di VirtualBox dapat dilakukan dengan mudah jika mengikuti langkah-langkah dengan benar. Spesifikasi hardware yang sesuai sangat berpengaruh terhadap performa sistem. Pemahaman tentang partisi juga penting agar sistem berjalan optimal.
+
+
+# Tugas Pendahuluan - Perbedaan Debian 12 (Bookworm) dengan Debian 11 (Bullseye)
+
+## 1. Perbedaan Versi Kernel
+| Debian Version | Kernel Version |
+|---------------|---------------|
+| Debian 11 (Bullseye) | 5.10 LTS |
+| Debian 12 (Bookworm) | 6.1 LTS |
+
+## 2. Kebutuhan Sistem
+| Debian Versionn | Minimum RAM | Minimum Storage |
+|---------------|------------|----------------|
+| Debian 11 (Bullseye) | 512 MB | 10 GB |
+| Debian 12 (Bookworm) | 1 GB | 20 GB |
+
+## 3. Penerapan Systemd
+Debian 12 menggunakan systemd versi lebih baru dibandingkan Debian 11, yang memberikan peningkatan dalam manajemen layanan dan proses booting yang lebih cepat.
+
+## 4. Perbedaan Paket dan Perubahan Software
+| Perubahan | Debian 11 (Bullseye) | Debian 12 (Bookworm) |
+|-----------|----------------------|----------------------|
+| Versi GCC | 10 | 12 |
+| Python | 3.9 | 3.11 |
+| LibreOffice | 7.0 | 7.4 |
+| GNOME | 3.38 | 43 |
+| KDE Plasma | 5.20 | 5.27 |
+
+## Kesimpulan
+Debian 12 membawa banyak peningkatan dibandingkan Debian 11, termasuk kernel yang lebih baru, peningkatan kebutuhan sistem, versi software yang lebih mutakhir, serta peningkatan performa melalui systemd terbaru. Jika menginginkan stabilitas dengan software terbaru, Debian 12 adalah pilihan yang lebih baik dibandingkan Debian 11.
