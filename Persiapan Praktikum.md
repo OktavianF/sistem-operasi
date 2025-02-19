@@ -73,3 +73,64 @@ Debian 12 menggunakan systemd versi lebih baru dibandingkan Debian 11, yang memb
 
 ## Kesimpulan
 Debian 12 membawa banyak peningkatan dibandingkan Debian 11, termasuk kernel yang lebih baru, peningkatan kebutuhan sistem, versi software yang lebih mutakhir, serta peningkatan performa melalui systemd terbaru. Jika menginginkan stabilitas dengan software terbaru, Debian 12 adalah pilihan yang lebih baik dibandingkan Debian 11.
+
+
+# Tugas Pendahuluan - Cek Environment dengan CPU-Z
+### Langkah-langkah:
+1. **Download dan install CPU-Z** dari [CPU-Z Official](https://www.cpuid.com/softwares/cpu-z.html).
+2. **Jalankan CPU-Z** dan catat informasi berikut:
+   - **CPU**: Model, jumlah core, clock speed.
+   - **Memory (RAM)**: Kapasitas, tipe, dan frekuensi.
+   - **Motherboard**: Merk, model, dan chipset.
+   - **Graphics**: Jenis GPU dan kapasitas VRAM.
+
+### Hasil Pengujian:
+| Komponen | Spesifikasi |
+|----------|-------------|
+| CPU | Intel Core i7-9700K (8 Cores, 3.6 GHz) |
+| RAM | 16 GB DDR4 3200 MHz |
+| Motherboard | ASUS ROG Strix Z390-E |
+| GPU | NVIDIA GTX 1660 Ti, 6GB VRAM |
+
+### Kesimpulan:
+Dengan CPU-Z, kita dapat dengan mudah mendapatkan informasi mendetail mengenai spesifikasi perangkat keras yang digunakan, membantu dalam troubleshooting dan optimalisasi sistem.
+
+
+# Tugas Pendahuluan - Mencari Info Aplikasi dari Hardware Menggunakan Shell
+### Perintah yang digunakan:
+- **Melihat daftar perangkat keras:**
+  ```bash
+  lshw -short
+  ```
+- **Cek driver perangkat keras:**
+  ```bash
+  lspci -k
+  ```
+- **Melihat perangkat USB yang terhubung:**
+  ```bash
+  lsusb
+  ```
+- **Menampilkan modul kernel yang digunakan:**
+  ```bash
+  lsmod
+  ```
+- **Menampilkan aplikasi terkait firmware/hardware:**
+  ```bash
+  dpkg --list | grep -i firmware
+  ```
+
+### Hasil Pengujian:
+| Perintah | Output |
+|----------|--------|
+| `lshw -short` | Menampilkan daftar perangkat keras yang terdeteksi. |
+| `lspci -k` | Menunjukkan perangkat PCI dan driver yang digunakan. |
+| `lsusb` | Daftar perangkat USB yang terhubung. |
+| `lsmod` | Modul kernel yang sedang aktif. |
+| `dpkg --list | grep -i firmware` | Menampilkan daftar paket firmware yang terinstal. |
+
+## Kesimpulan:
+Dengan menggunakan perintah shell di Linux, kita dapat memperoleh informasi detail mengenai perangkat keras dan aplikasi terkait tanpa perlu menggunakan GUI, sehingga lebih efisien untuk troubleshooting dan administrasi sistem.
+
+# Kesimpulan Akhir
+Debian 12 membawa banyak peningkatan dibandingkan Debian 11, termasuk kernel terbaru, perubahan pada software, serta sistem yang lebih optimal. Selain itu, pemahaman tentang spesifikasi perangkat keras menggunakan CPU-Z dan perintah shell membantu dalam menganalisis serta mengelola sistem lebih efektif.
+
