@@ -78,7 +78,7 @@ Debian 12 membawa banyak peningkatan dibandingkan Debian 11, termasuk kernel yan
 # Tugas Pendahuluan - Cek Environment dengan CPU-Z
 ### Langkah-langkah:
 1. **Download dan install CPU-Z** dari [CPU-Z Official](https://www.cpuid.com/softwares/cpu-z.html).
-2. **Jalankan CPU-Z** dan catat informasi berikut:
+2. **Menjalankan CPU-Z**
    - **CPU**: Model, jumlah core, clock speed.
    - **Memory (RAM)**: Kapasitas, tipe, dan frekuensi.
    - **Motherboard**: Merk, model, dan chipset.
@@ -87,13 +87,11 @@ Debian 12 membawa banyak peningkatan dibandingkan Debian 11, termasuk kernel yan
 ### Hasil Pengujian:
 | Komponen | Spesifikasi |
 |----------|-------------|
-| CPU | Intel Core i7-9700K (8 Cores, 3.6 GHz) |
-| RAM | 16 GB DDR4 3200 MHz |
-| Motherboard | ASUS ROG Strix Z390-E |
-| GPU | NVIDIA GTX 1660 Ti, 6GB VRAM |
+| CPU | 2 core |
+| RAM | 4GB |
 
 ### Kesimpulan:
-Dengan CPU-Z, kita dapat dengan mudah mendapatkan informasi mendetail mengenai spesifikasi perangkat keras yang digunakan, membantu dalam troubleshooting dan optimalisasi sistem.
+Dengan CPU-Z, saya dapat dengan mudah mendapatkan informasi mendetail mengenai spesifikasi perangkat keras yang digunakan, membantu dalam troubleshooting dan optimalisasi sistem.
 
 
 # Tugas Pendahuluan - Mencari Info Aplikasi dari Hardware Menggunakan Shell
